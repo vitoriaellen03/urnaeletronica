@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna</title>
+</head>
+<body>
+    <p>Quem deve ser o líder da turma? </p>
+    <form>
+        <input type="radio" name="candidatos" value="Jessica" required> Jéssica <br>
+        <input type="radio" name="candidatos" value="Joao"> João Victor <br>
+        <input type="radio" name="candidatos" value="Ismael"> Ismael <br>
+        <hr>
+        <button type="button" onclick="votar()" id="btnVotar">Votar</button> 
+        <button type="button" onclick="resultado()">Resultado</button>
+    </form>    
+    <hr>
+    <span id="msg"></span>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
